@@ -1,0 +1,25 @@
+Chapter 3
+Probability and Information
+Theory
+In this chapter, we describe probability theory and information theory.
+Probability theory is a mathematical framework for representing uncertain
+statements. It provides a means of quantifying uncertainty and axioms for deriving
+new uncertain statements. In artificial intelligence applications, we use probability
+theory in two major ways. First, the laws of probability tell us how AI systems
+should reason, so we design our algorithms to compute or approximate various
+expressions derived using probability theory. Second, we can use probability and
+statistics to theoretically analyze the behavior of proposed AI systems.
+Probability theory is a fundamental tool of many disciplines of science and
+engineering. We provide this chapter to ensure that readers whose background is
+primarily in software engineering with limited exposure to probability theory can
+understand the material in this book.
+While probability theory allows us to make uncertain statements and reason
+in the presence of uncertainty, information allows us to quantify the amount of
+uncertainty in a probability distribution.
+If you are already familiar with probability theory and information theory,
+you may wish to skip all of this chapter except for Sec. 3.14, which describes the
+graphs we use to describe structured probabilistic models for machine learning. If
+you have absolutely no prior experience with these subjects, this chapter should
+be sufficient to successfully carry out deep learning research projects, but we do
+suggest that you consult an additional resource, such as Jaynes (2003).
+53

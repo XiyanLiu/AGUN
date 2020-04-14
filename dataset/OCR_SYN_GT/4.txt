@@ -1,0 +1,27 @@
+CHAPTER 5. MACHINE LEARNING BASICS
+hand-designed, it can usually be understood as using a special-case optimizer. Some
+models such as decision trees or k-means require special-case optimizers because
+their cost functions have flat regions that make them inappropriate for minimization
+by gradient-based optimizers. Recognizing that most machine learning algorithms
+can be described using this recipe helps to see the different algorithms as part of a
+taxonomy of methods for doing related tasks that work for similar reasons, rather
+than as a long list of algorithms that each have separate justifications.
+5.11 Challenges Motivating Deep Learning
+The simple machine learning algorithms described in this chapter work very well on
+a wide variety of important problems. However, they have not succeeded in solving
+the central problems in AI, such as recognizing speech or recognizing objects.
+The development of deep learning was motivated in part by the failure of
+traditional algorithms to generalize well on such AI tasks.
+This section is about how the challenge of generalizing to new examples becomes
+exponentially more difficult when working with high-dimensional data, and how
+the mechanisms used to achieve generalization in traditional machine learning
+are insufficient to learn complicated functions in high-dimensional spaces. Such
+spaces also often impose high computational costs. Deep learning was designed to
+overcome these and other obstacles.
+5.11.1 The Curse of Dimensionality
+Many machine learning problems become exceedingly difficult when the number
+of dimensions in the data is high. This phenomenon is known as the curse
+of dimensionality. Of particular concern is that the number of possible distinct
+configurations of a set of variables increases exponentially as the number of variables
+increases.
+154

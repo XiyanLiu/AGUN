@@ -1,0 +1,39 @@
+CHAPTER 5. MACHINE LEARNING BASICS
+Regression: In this type of task, the computer program is asked to predict a
+numerical value given some input. To solve this task, the learning algorithm
+is asked to output a function f : Rn ¡ú R. This type of task is similar to
+classification, except that the format of output is different. An example of
+a regression task is the prediction of the expected claim amount that an
+insured person will make (used to set insurance premiums), or the prediction
+of future prices of securities. These kinds of predictions are also used for
+algorithmic trading.
+Transcription: In this type of task, the machine learning system is asked to
+observe a relatively unstructured representation of some kind of data and
+transcribe it into discrete, textual form. For example, in optical character
+recognition, the computer program is shown a photograph containing an
+image of text and is asked to return this text in the form of a sequence
+of characters (e.g., in ASCII or Unicode format). Google Street View uses
+deep learning to process address numbers in this way (Goodfellow et al.,
+2014d). Another example is speech recognition, where the computer program
+is provided an audio waveform and emits a sequence of characters or word
+ID codes describing the words that were spoken in the audio recording. Deep
+learning is a crucial component of modern speech recognition systems used
+at major companies including Microsoft, IBM and Google (Hinton et al.,
+2012b).
+Machine translation: In a machine translation task, the input already consists
+of a sequence of symbols in some language, and the computer program must
+convert this into a sequence of symbols in another language. This is commonly
+applied to natural languages, such as to translate from English to French.
+Deep learning has recently begun to have an important impact on this kind
+of task (Sutskever et al., 2014; Bahdanau et al., 2015).
+Structured output: Structured output tasks involve any task where the output
+is a vector (or other data structure containing multiple values) with important
+relationships between the different elements. This is a broad category, and
+subsumes the transcription and translation tasks described above, but also
+many other tasks. One example is parsing¡ªmapping a natural language
+sentence into a tree that describes its grammatical structure and tagging nodes
+of the trees as being verbs, nouns, or adverbs, and so on. See Collobert (2011)
+for an example of deep learning applied to a parsing task. Another example
+is pixel-wise segmentation of images, where the computer program assigns
+every pixel in an image to a specific category. For example, deep learning can
+101

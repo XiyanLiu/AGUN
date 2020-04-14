@@ -1,0 +1,38 @@
+CHAPTER 5. MACHINE LEARNING BASICS
+choose the maximum possible model capacity, resulting in overfitting (refer to
+Fig. ). For example, we can always fit the training 5.3 set better with a higher
+degree polynomial and a weight decay setting of ¦Ë = 0 than we could with a lower
+degree polynomial and a positive weight decay setting.
+To solve this problem, we need a validation set of examples that the training
+algorithm does not observe.
+Earlier we discussed how a held-out test set, composed of examples coming from
+the same distribution as the training set, can be used to estimate the generalization
+error of a learner, after the learning process has completed. It is important that the
+test examples are not used in any way to make choices about the model, including
+its hyperparameters. For this reason, no example from the test set can be used
+in the validation set. Therefore, we always construct the validation set from the
+training data. Specifically, we split the training data into two disjoint subsets. One
+of these subsets is used to learn the parameters. The other subset is our validation
+set, used to estimate the generalization error during or after training, allowing
+for the hyperparameters to be updated accordingly. The subset of data used to
+learn the parameters is still typically called the training set, even though this
+may be confused with the larger pool of data used for the entire training process.
+The subset of data used to guide the selection of hyperparameters is called the
+validation set. Typically, one uses about 80% of the training data for training and
+20% for validation. Since the validation set is used to ¡°train¡± the hyperparameters,
+the validation set error will underestimate the generalization error, though typically
+by a smaller amount than the training error. After all hyperparameter optimization
+is complete, the generalization error may be estimated using the test set.
+In practice, when the same test set has been used repeatedly to evaluate
+performance of different algorithms over many years, and especially if we consider
+all the attempts from the scientific community at beating the reported state-ofthe-
+art performance on that test set, we end up having optimistic evaluations with
+the test set as well. Benchmarks can thus become stale and then do not reflect the
+true field performance of a trained system. Thankfully, the community tends to
+move on to new (and usually more ambitious and larger) benchmark datasets.
+5.3.1 Cross-Validation
+Dividing the dataset into a fixed training set and a fixed test set can be problematic
+if it results in the test set being small. A small test set implies statistical uncertainty
+around the estimated average test error, making it difficult to claim that algorithm
+A works better than algorithm B on the given task.
+121

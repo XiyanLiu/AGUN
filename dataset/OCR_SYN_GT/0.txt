@@ -1,0 +1,40 @@
+CHAPTER 1. INTRODUCTION
+that are directly observed. Instead, they may exist either as unobserved objects
+or unobserved forces in the physical world that affect observable quantities. They
+may also exist as constructs in the human mind that provide useful simplifying
+explanations or inferred causes of the observed data. They can be thought of as
+concepts or abstractions that help us make sense of the rich variability in the data.
+When analyzing a speech recording, the factors of variation include the speaker¡¯s
+age, their sex, their accent and the words that they are speaking. When analyzing
+an image of a car, the factors of variation include the position of the car, its color,
+and the angle and brightness of the sun.
+A major source of difficulty in many real-world artificial intelligence applications
+is that many of the factors of variation influence every single piece of data we are
+able to observe. The individual pixels in an image of a red car might be very close
+to black at night. The shape of the car¡¯s silhouette depends on the viewing angle.
+Most applications require us to the factors of variation disentangle and discard the
+ones that we do not care about.
+Of course, it can be very difficult to extract such high-level, abstract features
+from raw data. Many of these factors of variation, such as a speaker¡¯s accent,
+can be identified only using sophisticated, nearly human-level understanding of
+the data. When it is nearly as difficult to obtain a representation as to solve the
+original problem, representation learning does not, at first glance, seem to help us.
+Deep learning solves this central problem in representation learning by introducing
+representations that are expressed in terms of other, simpler representations.
+Deep learning allows the computer to build complex concepts out of simpler concepts.
+Fig. 1.2 shows how a deep learning system can represent the concept of an
+image of a person by combining simpler concepts, such as corners and contours,
+which are in turn defined in terms of edges.
+The quintessential example of a deep learning model is the feedforward deep
+network or multilayer perceptron (MLP). A multilayer perceptron is just a mathematical
+function mapping some set of input values to output values. The function
+is formed by composing many simpler functions. We can think of each application
+of a different mathematical function as providing a new representation of the input.
+The idea of learning the right representation for the data provides one perspective
+on deep learning. Another perspective on deep learning is that depth allows the
+computer to learn a multi-step computer program. Each layer of the representation
+can be thought of as the state of the computer¡¯s memory after executing another
+set of instructions in parallel. Networks with greater depth can execute more
+instructions in sequence. Sequential instructions offer great power because later
+instructions can refer back to the results of earlier instructions. According to this
+5
