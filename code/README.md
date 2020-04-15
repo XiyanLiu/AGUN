@@ -1,1 +1,3 @@
-Run image_synthesis.py to synthesize new images.
+# Run
+* python image_synthesis.py  
+To synthesize new image and ground truth grid.
