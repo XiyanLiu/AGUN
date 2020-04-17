@@ -5,5 +5,5 @@ Python 3.6
 Pytorch 0.4.1  
 Opencv  
 ## Folder  
-* code: the code of data synthesis.  
+* code: the code of data synthesis and EGM.  
 * dataset: contains DOC_SYN dataset, OCR_REAL dataset and OCR_SYN dataset.
