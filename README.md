@@ -9,5 +9,5 @@ Opencv
 * dataset: contains DOC_SYN dataset, OCR_REAL dataset and OCR_SYN dataset.  
   Examples of DOC_SYN dataset:  
   <div align=center><img src="https://github.com/XiyanLiu/AGUN/blob/master/Material/doc_syn.jpg" width="710" height="340" /></div>  
-  Examples of OCR_SYN and OCR_REAL dataset:  
+   Examples of OCR_SYN and OCR_REAL dataset:  
   ![DOC_SYN](https://github.com/XiyanLiu/AGUN/blob/master/Material/ocr.jpg)
