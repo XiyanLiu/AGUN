@@ -7,3 +7,5 @@ Opencv
 ## Folder  
 * code: the code of data synthesis.  
 * dataset: contains DOC_SYN dataset, OCR_REAL dataset and OCR_SYN dataset.
+Examples of DOC_SYN dataset:  
+![DOC_SYN](https://github.com/XiyanLiu/AGUN/blob/master/code/image_save_for_reference/0_0_disorted.jpg)
