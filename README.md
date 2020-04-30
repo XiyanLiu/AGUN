@@ -8,4 +8,6 @@ Opencv
 * code: the code of data synthesis.  
 * dataset: contains DOC_SYN dataset, OCR_REAL dataset and OCR_SYN dataset.  
 Examples of DOC_SYN dataset:  
-![DOC_SYN](https://github.com/XiyanLiu/AGUN/blob/master/Material/doc_syn.jpg)
+![DOC_SYN](https://github.com/XiyanLiu/AGUN/blob/master/Material/doc_syn.jpg)  
+Examples of OCR_SYN and OCR_REAL dataset:  
+![DOC_SYN](https://github.com/XiyanLiu/AGUN/blob/master/Material/ocr.jpg)
